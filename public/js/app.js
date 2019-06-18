@@ -74,7 +74,8 @@ function observador() {
       var uid = user.uid;
       var providerData = user.providerData;
 
-      console.log('Usuario verificado: ' + emailVerified);
+      console.log("Usuario verificado: " + emailVerified);
+
       $("#botones").css("visibility", "hidden");
       $("#cerrarconexion").css("display", "inline");
     } else {
@@ -258,16 +259,12 @@ function cargarTabla() {
     var tabla = document.getElementById("tabla");
     tabla.innerHTML = "";
     querySnapshot.forEach(function (doc) {
-
+// Doy la vuelta a las fechas para que se vean con formato legible
       var a_F_Ini = doc.data().V_Fch_Ini;
-      console.log(a_F_Ini + " dato original");
       esFchIni = a_F_Ini.split('-').reverse().join('-')
-      console.log(esFchIni + "dato convertido");
-
       var a_F_Fin = doc.data().V_Fch_Fin;
-      console.log(a_F_Fin + " dato original");
       esFchFin = a_F_Fin.split('-').reverse().join('-')
-      console.log(esFchFin + "dato convertido");
+      
 
       tabla.innerHTML += `
         <tr>
