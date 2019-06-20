@@ -1,0 +1,142 @@
+ /* Autor: Fco. Javier PÃ©rez
+    MF0952_2 Ejercicio E1 usando servicios de Firebase y GitHub 
+    Fecha:17/06/2019*/
+
+ #cerrarconexion {
+   display: none;
+ }
+
+ /* Parámetros para el Icono de REGISTRO de usuario */
+ #registrar {
+   background-color: DodgerBlue;
+   color: white;
+   padding: 8px 24px;
+   font-size: 16px;
+   cursor: pointer;
+ }
+
+ /* Background cambia al posicionarse el ratón encima */
+ #registrar:hover {
+   background-color: RoyalBlue;
+ }
+
+ /* Parámetros para el Icono de CERRAR la ventana de registro */
+ #cerrar1 {
+   background-color: rgb(96, 99, 104);
+   color: white;
+   padding: 8px 24px;
+   font-size: 18px;
+   cursor: pointer;
+   float: right;
+ }
+
+ /* Background cambia al posicionarse el ratón encima */
+ #cerrar1:hover {
+   background-color: rgb(17, 18, 19);
+ }
+
+ /* Parámetros para el Icono de CERRAR conexión */
+ #cerrar {
+   background-color: rgb(58, 60, 63);
+   color: white;
+   padding: 8px 24px;
+   font-size: 18px;
+   cursor: pointer;
+   float: right;
+ }
+
+ /* Parámetros para el Icono de ELIMINAR territorios */
+ #btn_eliminar {
+   background-color: rgb(134, 5, 5);
+   border: none;
+   color: white;
+   padding: 8px 24px;
+   font-size: 16px;
+   cursor: pointer;
+ }
+
+ /* Background cambia al posicionarse el ratón encima */
+ #btn_eliminar:hover {
+   background-color: rgb(53, 2, 2);
+ }
+
+ /* Parámetros para el Icono de EDITAR territorios */
+ #btn_edit {
+   background-color: rgb(8, 184, 17);
+   border: none;
+   color: white;
+   padding: 8px 24px;
+   font-size: 16px;
+   cursor: pointer;
+ }
+
+ /* Background cambia al posicionarse el ratón encima */
+ #btn_edit:hover {
+   background-color: rgb(3, 65, 6);
+ }
+
+ /* Parámetros para el Icono de GUARDAR territorios */
+ #guardar {
+   background-color: DodgerBlue;
+   color: white;
+   padding: 8px 24px;
+   font-size: 18px;
+   cursor: pointer;
+ }
+
+ /* Background cambia al posicionarse el ratón encima */
+ #guardar:hover {
+   background-color: RoyalBlue;
+ }
+
+ /* Parámetros para el Icono de ACTUALIZAR territorios */
+ #actualizar {
+   background-color: DodgerBlue;
+   color: white;
+   padding: 8px 24px;
+   font-size: 18px;
+   cursor: pointer;
+ }
+
+ /* Background cambia al posicionarse el ratón encima */
+ #aztualizar:hover {
+   background-color: RoyalBlue;
+ }
+
+
+ /* Para destacar los input activos*/
+ .input:focus,
+ textarea:focus {
+   border-color: #0D1FFF;
+ }
+
+ /* Defino los check y les doy color a los check */
+ #ok_Fch_Ini {
+   color: #0DFF87;
+   display: block;
+ }
+
+ #ok_Fch_Fin {
+   color: #0DFF87;
+   display: block;
+ }
+
+ #ok_T_Territorio {
+   color: #0DFF87;
+   display: block;
+ }
+
+ #ok_Territorio {
+   color: #0DFF87;
+   display: block;
+ }
+
+ #ok_Quien {
+   color: #0DFF87;
+   display: block;
+ }
+
+  #ok_Cuando {
+   color: #0DFF87;
+   display: block;
+ }
